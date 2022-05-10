@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Map<K,V> {
 
-ArrayList<HashNode<K, V>>bucket=new ArrayList<>();
+	ArrayList<HashNode<K, V>>bucket=new ArrayList<>();
 	int numBuckets=10;
 	int size;
 	public Map() {
